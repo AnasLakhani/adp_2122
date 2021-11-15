@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/spacing_large"
+    android:background="@drawable/splash"
+    tools:context=".ScanQrActivity">
+
+    <EditText
+        android:id="@+id/scanQr"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/spacing_mlarge"
+        android:layout_marginRight="@dimen/spacing_mlarge"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="@string/scan_qr"
+        android:paddingStart="@dimen/spacing_large"
+        android:paddingEnd="@dimen/spacing_large"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/overlay_light_50"
+        />
+
+
+</LinearLayout>

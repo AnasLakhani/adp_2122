@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScanQrActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/splash"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="ADP: " />
+
+
+                <TextView
+                    android:id="@+id/txt_adp"
+                    style="@style/textViewTitle"
+                    android:text="2563 - 2122" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textViewHeadline"
+                android:text="Scheme Title:" />
+
+
+            <TextView
+                android:id="@+id/txt_scheme"
+                style="@style/textViewTitle"
+                android:text="Construction of Regional Youth Development Centres in Sindh" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="Sector:" />
+
+
+                <TextView
+                    android:id="@+id/txt_sports"
+                    style="@style/textViewTitle"
+                    android:text="Sports" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="Section:" />
+
+
+                <TextView
+                    android:id="@+id/txt_section"
+                    style="@style/textViewTitle"
+                    android:text="SC&amp;T" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="Location:" />
+
+
+                <TextView
+                    android:id="@+id/txt_location"
+                    style="@style/textViewTitle"
+                    android:text="Hyderabad, Larkana" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="Nature:" />
+
+
+                <TextView
+                    android:id="@+id/txt_nature"
+                    style="@style/textViewTitle"
+                    android:text="OG" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="Est. Cost:" />
+
+
+                <TextView
+                    android:id="@+id/txt_cost"
+                    style="@style/textViewTitle"
+                    android:text="328.711 M" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="Category:" />
+
+
+                <TextView
+                    android:id="@+id/txt_cat"
+                    style="@style/textViewTitle"
+                    android:text="PDWP" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_middle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey_400" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_middle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textViewHeadline"
+                android:text="PC-I received on:" />
+
+
+            <TextView
+                android:id="@+id/txt_pci_received"
+                style="@style/textViewTitle"
+                android:text="10-10-2021" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="TCM WP:" />
+
+
+                <TextView
+                    android:id="@+id/txt_tcm_wp"
+                    style="@style/textViewTitle"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="TCM Meeting:" />
+
+
+                <TextView
+                    android:id="@+id/txt_tcm_meeting"
+                    style="@style/textViewTitle"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="TCM Minutes:" />
+
+
+                <TextView
+                    android:id="@+id/txt_tcm_minutes"
+                    style="@style/textViewTitle"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="TCM Status:" />
+
+
+                <TextView
+                    android:id="@+id/txt_tcm_status"
+                    style="@style/textViewTitle"
+                    android:text="Cleared" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="PDWP WP:" />
+
+
+                <TextView
+                    android:id="@+id/txt_pdwp_wp"
+                    style="@style/textViewTitle"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="PDWP Meeting:" />
+
+
+                <TextView
+                    android:id="@+id/txt_pdwp_meeting"
+                    style="@style/textViewTitle"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="PDWP Minutes:" />
+
+
+                <TextView
+                    android:id="@+id/txt_pdwp_minutes"
+                    style="@style/textViewTitle"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewHeadline"
+                    android:text="PDWP Status:" />
+
+
+                <TextView
+                    android:id="@+id/txt_pdwp_status"
+                    style="@style/textViewTitle"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_mlarge" />
+
+    </LinearLayout>
+</ScrollView>
