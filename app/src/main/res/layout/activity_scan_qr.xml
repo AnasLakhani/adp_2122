@@ -6,25 +6,27 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:padding="@dimen/spacing_large"
+    android:orientation="vertical"
     android:background="@drawable/splash"
     tools:context=".ScanQrActivity">
 
-    <EditText
-        android:id="@+id/scanQr"
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+        android:id="@+id/zxscan"
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="@dimen/spacing_mlarge"
-        android:layout_marginRight="@dimen/spacing_mlarge"
-        android:background="@drawable/edit_text_background"
-        android:gravity="center"
-        android:fontFamily="@font/poppins_medium"
-        android:hint="@string/scan_qr"
-        android:paddingStart="@dimen/spacing_large"
-        android:paddingEnd="@dimen/spacing_large"
+        android:layout_height="0dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:text="Enter Manually"
+        android:textAllCaps="false"
+        android:textStyle="bold"
         android:textColor="@color/colorWhite"
-        android:textColorHint="@color/overlay_light_50"
-        />
+        android:background="@color/colorAccent"
+        android:textSize="18sp"
+        android:id="@+id/back"
+        android:layout_margin="10dp" />
 
 
 </LinearLayout>
